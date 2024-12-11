@@ -1,0 +1,167 @@
+ body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color:antiquewhite;
+    padding: 1rem;
+ }
+
+.card {
+    background-color: white;
+    max-width: 50rem;
+    padding: 1.4rem;
+    border-radius: 10px;
+    height: 115rem;
+}
+
+.image img {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.omelette-title {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 1.5rem;
+    font-size: 3rem;
+}
+
+.omelette-recpie {
+    display: flex;
+    margin-left: 12px;
+    margin-top: 15px;
+    color: gray;
+    font-size: 15px;
+}
+
+.preparation-time {
+    display:flex;
+    margin-left: 20px;
+    margin-top: 4rem;
+    color: rgb(88, 1, 88);
+    font-size: 2rem
+}
+
+.time-list .total {
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 26px;
+    color: rgba(112, 8, 8, 0.664);
+}
+
+.time-list .preparation {
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 26px;
+    color: rgba(112, 8, 8, 0.671);
+}
+
+.main-ingredients {
+    display: flex;
+    margin-left: 1px;
+    margin-top: 4rem;
+    font-size: 3.5rem;
+    color: rgb(112, 61, 10);
+}
+
+.ingredient-div .ingredients-one {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: grey;
+}
+
+.ingredient-div  .ingredients-two {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color:grey;
+}
+
+.ingredient-div  .ingredients-three {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color:grey;
+}
+
+.ingredient-div  .ingredients-four {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color:grey;
+}
+
+.ingredient-div  .ingredients-five {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color:grey;
+}
+
+.instruction-div .main-instructions {
+
+    margin-top: 40px;
+    font-size: 3.5rem;
+    color: rgb(112, 61, 10);
+}
+
+.instruction-div .instruction-one {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: grey;
+}
+
+.instruction-div .instruction-two {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: grey;
+}
+
+.instruction-div .instruction-three {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: grey;
+}
+
+.instruction-div .instruction-four {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: grey;
+}
+
+.instruction-div .instruction-five {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: grey;
+}
+
+.instruction-div .instruction-six {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: grey;
+}
+
+
+.instruction-div h2 {
+    color: rgb(112, 61, 10);
+}
+
+.nutrition-div .main-nutriton {
+    margin-top: 40px;
+    font-size: 3.5rem;
+    color: rgb(112, 61, 10);
+}
+
+.nutrition-div .nutrition-describe {
+    color: grey;
+    margin-top: 30px;
+    margin-left: 5px;
+}
